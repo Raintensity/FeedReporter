@@ -1,0 +1,8 @@
+# Dir
+node_modules/
+
+# File Ext
+*~
+*.bak
+.DS_Store
+Thumbs.db

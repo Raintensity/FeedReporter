@@ -1,0 +1,11 @@
+version: '3'
+services:
+  feedreporter:
+    build:
+      context: .
+    container_name: FeedReporter
+    tty: true
+    volumes:
+      - node_modules:/home/node/feedreporter/node_modules
+volumes:
+  node_modules:
